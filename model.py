@@ -125,22 +125,37 @@ class GaussianProcess:
         y_indu_dx2 = self.y_indu_dx2
 
         # Set up figure
-        fig, ax = plt.subplots(3, 1, figsize=(10, 10), sharex=True)
+        fig, ax = plt.subplots(2, 1, figsize=(8, 4), sharex=True)
         plt.ion()
         plt.show()
 
         # Plot the data
         ax[0].plot(X, y, 'k.', label='Data')
         ax[0].plot(X_indu, y_indu, 'r-', label='Inferred mean')
-        ax[0].set_ylabel('y')
+        ax[0].set_ylabel('Data')
         ax[0].legend()
-        ax[1].plot(X_indu, y_indu_dx, 'r-', label='Inferred velocity')
-        ax[1].set_ylabel('dy/dx')
+
+        # Plot the acceleration
+        ax[1].plot(X_indu, y_indu_dx2, 'r-', label='Inferred acceleration')
+        ax[1].fill_between(
+            X_indu.flatten(), 
+            y_indu_dx2.flatten(), 
+            0, where=y_indu_dx2.flatten() >= 0, 
+            facecolor='green', 
+            interpolate=True,
+            label='Positive acceleration'
+        )
+        ax[1].fill_between(
+            X_indu.flatten(), 
+            y_indu_dx2.flatten(), 
+            0, where=y_indu_dx2.flatten() <= 0, 
+            facecolor='red', 
+            interpolate=True,
+            label='Negative acceleration'
+        )
+        ax[1].set_ylabel('Acceleration')
+        ax[1].set_xlabel('Time')
         ax[1].legend()
-        ax[2].plot(X_indu, y_indu_dx2, 'r-', label='Inferred acceleration')
-        ax[2].set_ylabel('d^2y/dx^2')
-        ax[2].set_xlabel('x')
-        ax[2].legend()
 
         # Return the figure
         return fig, ax
