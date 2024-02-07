@@ -14,7 +14,23 @@
 
 ## Discussion
 
-[Discuss the implications and significance of the results.]
+We observe the highest accelerations in the NASDAQ's growth rate around the dates of April 17, 2020, May 5, 2021, and July 25, 2022. Typically, such accelerations follow a period of decline, indicating a local trough in stock prices. These dates coincide with significant macroeconomic events, which are outlined below:
+
+### April 17, 2020:
+- **Pandemic Response**: The early phase of the COVID-19 pandemic led to global economic disruptions. Markets faced volatility amidst the uncertainty caused by the pandemic.
+- **Monetary Stimulus**: The US Federal Reserve announced a substantial quantitative easing program to inject liquidity into the economy, aiming to mitigate financial stress.
+- **Fiscal Stimulus**: The US Congress passed the CARES Act, providing emergency economic relief to individuals and businesses, which likely had a positive effect on market sentiment.
+
+### May 5, 2021:
+- **Economic Recovery**: With the progress of vaccination campaigns and the lifting of restrictions, economic activities resumed, potentially bolstering technology sectors.
+- **Accommodative Monetary Policy**: The Federal Reserve sustained its low-interest-rate policy and quantitative easing, further supporting the financial markets.
+- **Corporate Performance**: Robust earnings reports from key technology firms, which have a substantial influence on the NASDAQ, likely drove the index higher.
+
+### July 25, 2022:
+- **Inflation and Interest Rates**: As the Federal Reserve addressed rising inflation through increased interest rates, this led to market adjustments that may have affected growth rates.
+- **Tech Sector Resilience**: Notwithstanding macroeconomic headwinds, the persistent strong performance of technology companies could have buoyed the index.
+- **Geopolitical Factors**: Events such as the conflict in Ukraine introduced additional variables into market dynamics, the implications of which would require specific analysis to understand their impact on the NASDAQ.
+
 
 ## Conclusion
 
