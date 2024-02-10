@@ -31,6 +31,13 @@ We observe the highest accelerations in the NASDAQ's growth rate around the date
 - **Tech Sector Resilience**: Notwithstanding macroeconomic headwinds, the persistent strong performance of technology companies could have buoyed the index.
 - **Geopolitical Factors**: Events such as the conflict in Ukraine introduced additional variables into market dynamics, the implications of which would require specific analysis to understand their impact on the NASDAQ.
 
+In contrast, the highest deceleration in growth rate observed around these dates, August 20th, 2019, November 29th, 2020, November 18th, 2021, and July 7, 2023, do not align with significant socio-economic events as distinctly as the acceleration dates, except for November 18th, 2021.
+
+### November 18, 2021:
+**Inflation Surge**: Marking the fastest inflation rate since 1982, energy and food prices saw significant increases, while shelter costs had their highest rise since 2007.
+**Job Growth Disappointment**: Despite the sharp fall in the unemployment rate, the economy created far fewer jobs than expected, with notable declines in retail and government employment.
+**Wage Growth**: Worker wages continued their upward trend, rising both for the month and significantly over the year.
+
 
 ## Conclusion
 
