@@ -14,7 +14,7 @@ Our goal is to demonstrate how to use the Guassian process to infer second deriv
 
 The main assumption of a Gaussian process model is that if we evaluate a function, $F(t)$, at a collection of points, $t_1, t_2, \ldots, t_n$, then the values of the function at these points will be Gaussian distributed
 $$
-    \bm{f} = \sim \mathcal{N}(\bm{\mu}, \bm{K})
+    \bm{f} = \mathcal{N}(\bm{\mu}, \bm{K})
 $$
 where $f_n=F(t_n)$, $\bm{\mu}$ is the mean vector, and $\bm{K}$ is the covariance matrix. The covariance matrix is defined as
 $$
@@ -24,7 +24,7 @@ where $a$ is the amplitude of the function, and $\ell$ is the length scale. The 
 
 In our case our function $F(t)$ tracks the value of NASDAQ stock index at time over time. But, we say "value" we don't mean the actual stock price, but rather what it is intrinsically worth. We assume the stock price is randomly distributed around the value at each point in time
 $$
-    P(y_n) = \sim \mathcal{N}(F(t_n), \sigma^2)
+    P(y_n) = \mathcal{N}(F(t_n), \sigma^2)
 $$
 where $y_n$ is the stock price at time $t_n$, and $\sigma^2$ is the variance of the stock price.
 
