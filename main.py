@@ -14,10 +14,7 @@ def load_data():
     rawdata = np.loadtxt(file, delimiter=',', skiprows=1, dtype=str)
 
     # Get dates
-    dates = np.array([np.datetime64(date) for date in rawdata[:, 0]])
-
-    # Turn datetime into floats
-    dates = (dates - dates[0]) / np.timedelta64(1, 'D')
+    dates = np.array([np.datetime64(date) for date in rawdata[:, 0]]).astype('datetime64[D]').astype(int)
 
     # Get data
     data = rawdata[:, 1].astype(float)
@@ -37,9 +34,6 @@ model.fit()
 
 # Plot the results
 model.plot_results()
-
-
-
 
 # Done
 print('Done.')
