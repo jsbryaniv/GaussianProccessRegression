@@ -16,7 +16,7 @@ The main assumption of a Gaussian process model is that if we evaluate a functio
 $$
     \bm{f} = \mathcal{N}(\bm{\mu}, \bm{K})
 $$
-where $f_n=F(t_n)$, $\bm{\mu}$ is the mean vector, and $\bm{K}$ is the covariance matrix. The covariance matrix is defined as
+where $f_n=F(t_n)$, $\bm{\mu}$ is the mean vector (which we will set to 0), and $\bm{K}$ is the covariance matrix. The covariance matrix is defined as
 $$
     K_{ij} = a^2\exp\left(-\frac{(t_i-t_j)^2}{2\ell^2}\right)
 $$
