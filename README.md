@@ -19,6 +19,7 @@ pip install -r requirements.txt
 
 Please see the [writeup](writeup.md) for a detailed explanation of the project.
 
+
 ## Credits
 
 This work was a joint project between [Saivardhan Reddy Ainavolu](https://www.linkedin.com/in/saivardhan-reddy-ainavolu/) and [Shep Bryan](jsbryaniv.github.io). We hope you enjoyed our work and learned something new. If you have any questions or comments, feel free to reach out to us.
