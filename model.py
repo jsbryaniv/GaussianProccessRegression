@@ -124,6 +124,10 @@ class GaussianProcess:
         y_indu_dx = self.y_indu_dx
         y_indu_dx2 = self.y_indu_dx2
 
+        # Convert dates to datetime
+        X = X.astype('datetime64[D]')
+        X_indu = X_indu.astype('datetime64[D]')
+
         # Set up figure
         fig, ax = plt.subplots(2, 1, figsize=(8, 4), sharex=True)
         plt.ion()
@@ -156,6 +160,7 @@ class GaussianProcess:
         ax[1].set_ylabel('Acceleration')
         ax[1].set_xlabel('Time')
         ax[1].legend()
+
 
         # Return the figure
         return fig, ax
