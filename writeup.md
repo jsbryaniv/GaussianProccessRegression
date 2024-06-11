@@ -51,11 +51,11 @@ We run our model on the NASDAQ stock index from 2019 to 2024. The results are sh
 
 We first show that 
 We first apply our model with $l=30$ days.
-![GP_l=month](pigs/GP_l=month.png)
+![GP_l=month](pics/GP_l=month.png)
 As you can see, there are clear spikes of acceleration at major turns in the market. At this resolution, however, we see more rapid shifts in the market, so it may be better to choose a lenght scale that is longer than 30 days.
 
 We then apply our model with $l=180$ days.
-![GP](pigs/GP.png)
+![GP](pics/GP.png)
 We again see large spikes of acceleration at major turns in the market. However, we see fewer spikes, and the spikes are more pronounced. We will use our results from this model to identify significant macroeconomic events.
 
 ## Interpretation
